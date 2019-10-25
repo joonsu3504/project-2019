@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>datepicker demo</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  
+  <script src="./jquery-ui-1.12.1/datepicker-ko.js"></script>
+            
+            <script type="text/javascript">
+                $(function(){
+                    $("#date3").datepicker({
+                        onSelect:function(dateText, inst) {
+                            console.log(dateText);
+                        }
+                    });   
+                });  
+                </script>
+                <input type="text" name="date" id="date3" size="12" />
+                <input type="button" value="달력" onclick="$('#date3').datepicker('show');" />
+                <script type="text/javascript">
+                $("#date3").datepicker({
+                    changeYear:true,   
+                    changeMonth:true                 
+                  });
+</head>
+<body>
+<div id="datepicker"></div>
+<script>
+$( "#datepicker" ).datepicker();
+</script>
+</body>
+</html>
