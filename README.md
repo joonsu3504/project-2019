@@ -1,4 +1,10 @@
-# 안준수 : daelim2019-2 project
+﻿# 안준수 : daelim2019-2 project
+
+
+## 2019.11.15
+1. 사진넘기기삽입
+2. 상태바
+
 
 ## 2019.10.25
 #### jqueryTest.html, jquerystyle.html, jquery4.html, imgframes.html, Animate Basics.html 생성
